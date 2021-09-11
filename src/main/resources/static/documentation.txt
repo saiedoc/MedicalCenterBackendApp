@@ -1,0 +1,252 @@
+     Get Links : #it start with "api/get" .
+
+
+ - /specializations
+
+ - /doctors
+
+ - /roles
+
+ -/accounts
+
+ -/medicines
+
+ -/patients
+
+ -/sicknesses
+
+ -/appointments
+
+ -/statuses
+
+ -/workDays
+
+  *******
+
+ -/doctor/id/{id}
+
+ -/doctors/name/{name}
+
+ -/doctor/account/id/{id}
+
+ -/doctors/speci/{name}
+
+ -/doctors/workday/{name}
+
+ -/doctors/patient/{patientID}
+
+ *******
+
+ -/patient/id={id}
+
+ -/patients/name={name}
+
+ -/patient/account/id/{id}
+
+ -/patients/sickness/{name}
+
+ -/patients/medicine/{name}
+
+ -/patients/address/{address}
+
+ -/patients/dateOfBirth/{date}
+
+ -/patients/doctor/{id}
+
+
+ *******
+
+ -/appointment/id={id}
+
+ -/appointments/doctor/{doctorID}/status/pending
+
+ -/appointments/doctor/{doctorID}/status/accept
+
+ -/appointments/doctor/{doctorID}/status/refuse
+
+ -/appointments/date/time
+
+ -/appointments/status/pending/patient/date
+
+ -/appointments/status/accept/patient/date
+
+ -/appointments/status/refuse/patient/date
+
+ -/appointments/status/pending/doctor/date
+
+ -/appointments/status/accept/doctor/date
+
+ -/appointments/status/refuse/doctor/date
+
+ -/appointments/doctor/date/status/pending
+
+ -/appointments/doctor/date/status/accept
+
+ -/appointments/doctor/date/status/refuse
+
+  *******
+
+  -/role/id/{id}
+
+  -/account/id/{id}
+
+  -/specialization/id/{id}
+
+  -/attachment/info/id/{id}
+
+  -/attachment/download/id/{id}
+
+  -/attachment/url/id/{id}/attachment.pdf
+
+  -/medicine/id/{id}
+
+  -/sickness/id/{id}
+
+  -/session/id/{id}
+
+  -/medTime/id/{id}
+
+  -/status/id/{id}
+
+  -/workDay/id/{id}
+
+  -/medicines/patient/{patientID}
+
+  -/sicknesses/patient/{patientID}
+
+  -/attachments/session/{sessionID}
+
+  -/report/patient/{patientID}/doctor/{doctorID}
+
+  -/sessions/patient/{patientID}
+
+  -/analyses/patient/{patientID}
+
+  -/medicineTimes/patient/{patientID}
+
+  -/clinic/info
+
+  -/patientMed/medicineId/patientId
+
+
+
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+
+
+      Post Links : #it start with "api/post" .
+
+
+  -/login
+
+  -/account
+
+  -/doctor
+
+  -/patient
+
+  -/speci  #it is an abbreviation to " specialization "
+
+  -/role
+
+  -/report
+
+  -/medicine
+
+  -/sickness
+
+  -/attachment
+
+  -/appointment
+
+  -/wTdoctor #it is an abbreviation to " work time doctor "
+
+  -/token
+
+  -/medicineTime
+
+  -/clinic/info
+
+ــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+
+
+       Put Links : #it start with "api/update" .
+
+ -/account
+
+ -/doctor
+
+ -/role
+
+ -/patient
+
+ -/speci   #it is an abbreviation to " specialization ".
+
+ -/appointment
+
+ -/appointment/status/accept/id/{id}
+
+ -/appointment/status/refuse/id/{id}
+
+ -/medicine
+
+ -/sickness
+
+ -/attachment
+
+ -/wTdoctor  #it is an abbreviation to "work time doctor"
+
+ -/medicineTime
+
+ -/linkMedicineWithPatient
+
+ -/linkPatientWithSickness
+
+ -/workDay
+
+ -/token
+
+
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+
+
+
+       Delete Links : #it start with "api/delete"
+
+
+ # NOTE : You must have the primary key of table ( entity ) to allowed to delete it .
+
+ -/doctor/id/{id}/isActive/{isActive}
+
+ -/specialization/{id}/isActive/{isActive}
+
+ -/role/id/{id}/isActive/{isActive}
+
+ -/account/id/{id}/isActive/{isActive}
+
+ -/attachment/id/{id}/isActive/{isActive}
+
+ -/medicine/id/{id}/isActive/{isActive}
+
+ -/session/id/{id}/isActive/{isActive}
+
+ -/sickness/id/{id}/isActive/{isActive}
+
+ -/appointment/id/{id}/isActive/{isActive}
+
+ -/medicineTime/id/{id}/isActive/{isActive}
+
+ -/patient/id/{id}/isActive/{isActive}
+
+ -/status/id/{id}/isActive/{isActive}
+
+ -/cancel/medicine/medicineID/{medicineID}/patient/patientID/{patientID}
+
+ -/cancel/sickness/sicknessID/{sicknessID}/patient/patientID/{patientID}
+
+ -/cancel/workTime
+
+ -/workDay/id/{id}/isActive/{isActive}
+
+
+
+ *************************[ Created By : a7la shabab Team ©]******************************

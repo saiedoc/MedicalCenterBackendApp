@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>about</title>
+</head>
+<body>
+<center>
+
+<img th:src="@{springRest.png}" alt="spring boot photo" width="750" height="350" align="center" src="../static/springRest.png"/>
+</center>
+    <iframe id="myFrame" th:src="@{documentation.txt}"  height="400"
+           width="100%" src="../static/documentation.txt">
+    </iframe>
+
+<script>
+var frame = document.getElementById('myFrame');
+    frame.onload = function () {
+        var body = frame.contentWindow.document.querySelector('body');
+        body.style.fontSize = '20px';
+        body.style.lineHeight = '20px';
+    };
+</script>
+</body>
+</html>
