@@ -72,11 +72,11 @@ The project is built using the following key libraries and frameworks:
 
 ## Author
 
-**Saied Aussi**
-**Eyad Al Sayed**
-**Caesar Farah**
-**Abd Al Raheem Khoulani**
-**Salem Al Aushoor**
+- **Saied Aussi**
+- **Eyad Al Sayed**
+- **Caesar Farah**
+- **Abd Al Raheem Khoulani**
+- **Salem Al Aushoor**
 
 ## License
 
