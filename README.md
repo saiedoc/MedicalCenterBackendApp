@@ -1,6 +1,10 @@
 # Clinic Management System Backend
 
-**Clinic Management System** is a backend application designed to assist doctors and patients in managing medical centers and documents. This Spring Boot application provides a robust backend for handling various functionalities, including database interactions and API services (Note: Project is outdated. Dependencies need to be reconfigured in order for the application to run again).
+**Clinic Management System** is a backend application designed to assist doctors and patients in managing medical centers and documents. This Spring Boot application provides a robust backend for handling various functionalities, including database interactions and API services.
+
+## Project Status
+
+⚠️ **Note:** This project has not been maintained for the past three years. Dependencies, configurations, and libraries may be outdated. If you are interested in using or contributing to the project, please contact me to update the necessary dependencies and configurations to get the app running again.
 
 ## Features
 
