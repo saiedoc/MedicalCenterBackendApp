@@ -4,7 +4,7 @@
 
 ## Project Status
 
-⚠️ **Note:** This project has not been maintained for the past three years. Dependencies, configurations, and libraries may be outdated. If you are interested in using or contributing to the project, please contact me to update the necessary dependencies and configurations to get the app running again.
+⚠️ **Note:** This project has not been maintained since 2021. Dependencies, configurations, and libraries may be outdated. If you are interested in using or contributing to the project, please contact me to update the necessary dependencies and configurations to get the app running again.
 
 ## Features
 
@@ -74,7 +74,7 @@ The project is built using the following key libraries and frameworks:
 - **Database Architecture**: Includes MySQL and SQL Server database schemas.
 
 
-## Author
+## Authors
 
 - **Saied Aussi**
 - **Eyad Al Sayed**
